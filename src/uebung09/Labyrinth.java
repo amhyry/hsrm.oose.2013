@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.swing.JPanel;
 
-import hsrm.oose.uebung09.util.*;
+import uebung09.util.*;
 
 public class Labyrinth extends JPanel {
 
