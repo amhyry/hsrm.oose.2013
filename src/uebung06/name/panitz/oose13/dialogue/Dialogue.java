@@ -13,7 +13,7 @@ class Dialogue extends JFrame{
 		final JButton button = new JButton(logic.getDescription());
 		button.addActionListener
 		(new ActionListener() {
-			public void actionPerformed (ActionEvent _) {
+			public void actionPerformed (ActionEvent actionEvent) {
 				outputField.setText(logic.eval(inputField.getText().trim()));
 			}
 		});

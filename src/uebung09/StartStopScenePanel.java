@@ -17,7 +17,7 @@ public class StartStopScenePanel extends JPanel {
 		jb = new JButton("Start");
 		jb.addActionListener
 		(new ActionListener() {
-			public void actionPerformed (ActionEvent _) {
+			public void actionPerformed (ActionEvent actionEvent) {
 				if(sp.t.isRunning()){
 					jb.setText("Stop");
 					sp.t.stop();

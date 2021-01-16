@@ -6,7 +6,7 @@ public class ButtonLogicSmall extends ButtonLogic {
 	
 	String eval(String x) { return x.toLowerCase(); }
 	
-	public static void main(String[]_){
+	public static void main(String[] args){
 		new Dialogue(new ButtonLogicSmall());
 	}	
 	
